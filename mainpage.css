@@ -5,6 +5,16 @@
     /* top: 0px; */
 }
 
+
+@media(max-width:580px){
+ h1{
+    font-size: 23px!important;
+ }
+}
+
+
+    
+
 body {
         
     background: url("/indian-condiments-with-copy-space-view.jpg");
