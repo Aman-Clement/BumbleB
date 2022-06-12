@@ -7,10 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="burger.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+  </head>
 <body>
   <!-- <div class="btn-group dropup">
     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -26,10 +23,29 @@
       <li ><button class="dropup-item center" type="button">STARTERS/button></li> 
     </div>
   </div> -->
-
-    <section>
+  <div>
+  <section class="section1 center" id="section1">
+        <div class="logomain">
+            <img src="/BUBBLE BOP.png" alt="logo">
+        </div>
+        <h1>Bubble Bop</h1>
+          <div class="profiledrop">
+        <!-- <div class="profiledrop"> -->
+        <div class="btn-group" >
+            <button type="button" class="btn btn-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/user.jpg" alt="profile">
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item center" type="button">Username</button></li>
+                <li><button class="dropdown-item center" type="button">Table No.</button></li>
+                <li><button class="dropdown-item center" type="button"><form><input type="submit" value="SignOut" class="bordernone center"/></form></button></li>
+            </ul>
+        
+        </div>
+      </section>
+    <section class="foodsec">
         <div>
-            <h1></h1>
+            <H2>STARTERS</H2>
         </div>
         <ul class="cards">
             <section>
@@ -50,7 +66,7 @@
                 </div>
               </a>      
              </li>
-             <div class="d-flex align-items-center quantity" style="background-color:#e3d5ca;"> <span
+             <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
                 class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
                     class="ps-2" type="number" value="0"></span>
         </div>
@@ -62,7 +78,7 @@
                 <div class="card__overlay">        
                   <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-                    <img class="card__thumb" src="/veg.png" alt="" />
+                    <img class="card__thumb" src="veg.png" alt="" />
                     <div class="card__header-text">
                       <h3 class="card__title">Smoked Chilly Paneer</h3>
                       <span class="card__status">100</span>
@@ -72,7 +88,7 @@
                 </div>
               </a>
             </li>
-            <div class="d-flex align-items-center quantity" style="background-color:#e3d5ca;"> <span
+            <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
                 class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
                     class="ps-2" type="number" value="0"></span>
         </div>
@@ -94,7 +110,7 @@
                 </div>
               </a>
             </li>
-            <div class="d-flex align-items-center quantity" style="background-color:#e3d5ca;"> <span
+            <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
                 class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
                     class="ps-2" type="number" value="0"></span>
         </div>
@@ -116,32 +132,159 @@
                 </div>
               </a>
             </li> 
-            <div class="d-flex align-items-center quantity" style="background-color:#e3d5ca;"> <span
+            <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
                 class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
                     class="ps-2" type="number" value="0"></span>
         </div>
         </section>   
           </ul>
     </section>
+    <section class="foodsec">
+      <div>
+          <H2>MAIN COURSE</H2>
+      </div>
+      <ul class="cards">
+          <section>
+          <li>
+            <a href="" class="card">
+              <img src="https://b.zmtcdn.com/data/dish_photos/f73/63ae1c6e8b2cfff4b2859d061bc41f73.jpg?fit=around|130:130&crop=130:130;*,*" class="card__image" alt="" />
+              <div class="card__overlay">
+                <div class="card__header">
+                  <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                  <img class="card__thumb" src="/veg.png" alt="" />
+                  <div class="card__header-text">
+                    <h3 class="card__title">Smoked Chilly Paneer</h3>            
+                    <span class="card__status">100</span>
+                  </div>
+                  
+                </div>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              </div>
+            </a>      
+           </li>
+           <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
+              class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
+                  class="ps-2" type="number" value="0"></span>
+      </div>
+          </section>
+          <section>
+          <li>
+            <a href="" class="card">
+              <img src="https://b.zmtcdn.com/data/dish_photos/f73/63ae1c6e8b2cfff4b2859d061bc41f73.jpg?fit=around|130:130&crop=130:130;*,*" class="card__image" alt="" />
+              <div class="card__overlay">        
+                <div class="card__header">
+                  <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                  <img class="card__thumb" src="veg.png" alt="" />
+                  <div class="card__header-text">
+                    <h3 class="card__title">Smoked Chilly Paneer</h3>
+                    <span class="card__status">100</span>
+                  </div>
+                </div>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              </div>
+            </a>
+          </li>
+          <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
+              class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
+                  class="ps-2" type="number" value="0"></span>
+      </div>
+          </section>
+          <section>
+          <li>
+            <a href="" class="card">
+              <img src="https://b.zmtcdn.com/data/dish_photos/f73/63ae1c6e8b2cfff4b2859d061bc41f73.jpg?fit=around|130:130&crop=130:130;*,*" class="card__image" alt="" />
+              <div class="card__overlay">
+                <div class="card__header">
+                  <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                  <img class="card__thumb" src="/nonveg.png" alt="" />
+                  <div class="card__header-text">
+                    <h3 class="card__title">Jessica Parker</h3>
+                    <span class="card__status">1 hour ago</span>
+                  </div>
+                </div>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              </div>
+            </a>
+          </li>
+          <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
+              class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
+                  class="ps-2" type="number" value="0"></span>
+      </div>
+    </ul>
+    </section>
+  
+  <section class="foodsec">
+    <div>
+        <H2>COMBO</H2>
+    </div>
+    <ul class="cards">
+        <section>
+        <li>
+          <a href="" class="card">
+            <img src="https://b.zmtcdn.com/data/dish_photos/f73/63ae1c6e8b2cfff4b2859d061bc41f73.jpg?fit=around|130:130&crop=130:130;*,*" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                <img class="card__thumb" src="/veg.png" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">Smoked Chilly Paneer</h3>            
+                  <span class="card__status">100</span>
+                </div>
+                
+              </div>
+              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>      
+         </li>
+         <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
+            class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
+                class="ps-2" type="number" value="0"></span>
+    </div>
+        </section>  
+      </ul>
+  <!-- <section>
+          <li>
+            <a href="" class="card">
+              <img src="https://b.zmtcdn.com/data/dish_photos/f73/63ae1c6e8b2cfff4b2859d061bc41f73.jpg?fit=around|130:130&crop=130:130;*,*" class="card__image" alt="" />
+              <div class="card__overlay">
+                <div class="card__header">
+                  <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                  <img class="card__thumb" src="/nonveg.png" alt="" />
+                  <div class="card__header-text">
+                    <h3 class="card__title">kim Cattrall</h3>
+                    <span class="card__status">3 hours ago</span>
+                  </div>          
+                </div>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              </div>
+            </a>
+          </li> 
+          <div class="d-flex align-items-center quantity mw" style="background-color:#e3d5ca;"> <span
+              class="pe-3 text-muted">Quantity</span> <span class="pe-3"> <input
+                  class="ps-2" type="number" value="0"></span>
+      </div>
+      </section>    -->
+        </ul>
+  </section>
     <div class="dropup foodcat">
       <button class="dropbtn">
         <img src="/WhatsApp Image 2022-06-12 at 2.18.42 AM.jpeg" alt="menu">
       </button>
       <div class="dropup-content">
-        <a >DRINKS
+        <a href="">DRINKS
         </a>
-        <a>BURGERS
+        <a href="">BURGERS
         </a>
-        <a>PIZZAS
+        <a href="">PIZZAS
         </a>
-        <a>COMBOS</a>
+        <a href="">COMBOS</a>
         <a>
           DESSERTS
         </a>
-        <a>
+        <a href="">
           MAIN COURSE
         </a>
-        <a>
+        <a href="">
           STARTERS
         </a>
   
@@ -159,6 +302,13 @@
                 <a class="dropdown-item" href="#">Separated link</a>
               </div>
             </div> -->
+            <div class="cart">
+              <a href="">
+                <img src="/Untitled design (15).png" alt="cart">
+              </a>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+      </div>
 </body>
 </html>
